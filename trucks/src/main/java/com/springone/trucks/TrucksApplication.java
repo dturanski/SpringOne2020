@@ -43,7 +43,7 @@ public class TrucksApplication {
 		truck.setAcceleration(random.nextFloat() * 10);
 		truck.setVelocity(random.nextFloat() * 100);
 		truck.setBrakeTemperature(random.nextFloat() * 50);
-		truck.setInternalTemperature(random.nextFloat() * 50);
+		truck.setInternalTemperature(random.nextFloat() * 150);
 		truck.setExternalTemperature(random.nextFloat() * 50);
 		return truck;
 	}
