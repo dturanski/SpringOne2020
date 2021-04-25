@@ -23,7 +23,7 @@ public class BrakeTemperatureApplication {
 	}
 
 	@Bean
-	public Function<KStream<Object, Truck>, KStream<String, AverageBrakeTemperatureAccumulator>> processBrakeTemperature() {
+	public Function<KStream<Object, Truck>, KStream<String, AverageBrakeTemperatureAccumulator>> process() {
 
 		return input -> input
 				.map((k, v) -> new KeyValue<>(v.getId(), v))
