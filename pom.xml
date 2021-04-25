@@ -12,7 +12,6 @@
 		<module>trucks</module>
 		<module>brake-temperature</module>
 		<module>brake-logs</module>
-		<module>thumbinator</module>
 	</modules>
 
 	<name>labs</name>
